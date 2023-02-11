@@ -124,6 +124,44 @@ a = int(input())
 print(-a)
 
 -----------------------------------------------------
+Read three angles given on separate input lines and check
+whether they form a triangle.
+Print the answer in the following format:
+"The triangle is valid!" or "The triangle is not valid!".
+
+a = int(input())
+b = int(input())
+c = int(input())
+
+if (a + b + c) == 180:
+    print("The triangle is valid!")
+else:
+    print("The triangle is not valid!")
+
+----------------------------------------------------
+
+Whoa! This problem requires knowledge of list collection type. If you're feeling up to the challenge, brace yourself,
+and good luck! Otherwise, you can skip it for now and return any time later.
+Write a simple spellchecker that tells you if the word is spelled correctly.
+Use the dictionary in the code below: it contains the list of all correctly written words.
+
+The input format:
+
+A single line with the "word".
+
+The output format:
+
+If the word is spelled correctly write Correct, otherwise, Incorrect.
+
+dictionary = ["aa", "abab", "aac", "ba", "bac", "baba", "cac", "caac"]
+word = input()
+
+if word in dictionary:
+    print("Correct")
+else:
+    print("Incorrect")
+
+-----------------------------------------------------
 """
 
 
