@@ -17,6 +17,7 @@ Don't specify any message when reading the input, please.
 
 a = int(input())
 b = int(input())
+
 print(a - b)
 
 -------------------------------------------
@@ -28,6 +29,7 @@ The program should print the result.
 a = int(input())
 b = int(input())
 c = int(input())
+
 print((a * b) - c)
 
 -------------------------------------------
@@ -35,5 +37,35 @@ It's time for really big numbers! Calculate the integer value of
 2 ** 179 and print what you got.
 
 print(2 ** 179)
+
+--------------------------------------------
+
+Write a program that takes a single integer number n and then
+performs the following operations in the following order:
+
+adds n to itself
+multiplies the result by n
+subtracts n from the result
+exactly divides the result by n (that means, you need to carry out integer division).
+Then print the result of the division. The example is given below:
+
+8 + 8 = 16
+16 * 8 = 128
+128 - 8 = 120
+120 // 8 = 15
+The variable n is already defined => 8
+
+n = int(input())
+print((((n + n) * n) - n) // n)
+
+-----------------------------------------------------
+
+Write a program that prints the product
+of these three numbers 1 * 2 * 3.
+
+print(1 * 2 * 3)
+
+------------------------------------------------------
+
 """
 
