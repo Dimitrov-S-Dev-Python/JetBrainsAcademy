@@ -30,5 +30,10 @@ b = int(input())
 c = int(input())
 print((a * b) - c)
 
+-------------------------------------------
+It's time for really big numbers! Calculate the integer value of
+2 ** 179 and print what you got.
+
+print(2 ** 179)
 """
 
