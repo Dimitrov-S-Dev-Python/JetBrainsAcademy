@@ -117,6 +117,13 @@ if ingredient in omelette:
     print("omelette time!")
 
 -----------------------------------------------------
+
+Read an integer as input and print it with the opposite sign
+
+a = int(input())
+print(-a)
+
+-----------------------------------------------------
 """
 
 
