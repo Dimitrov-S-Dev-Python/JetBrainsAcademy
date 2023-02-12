@@ -9,7 +9,7 @@ answer:
 4
 9
 16
---------------------------------------------
+-----------------------------------------------------
 
 Write a program that reads two integer numbers
 from user and then prints their difference.
@@ -20,7 +20,7 @@ b = int(input())
 
 print(a - b)
 
--------------------------------------------
+-----------------------------------------------------
 
 Write a program that takes 3 integer numbers a, b and c,
 calculates a times b and then subtracts c from the product.
@@ -32,13 +32,13 @@ c = int(input())
 
 print((a * b) - c)
 
--------------------------------------------
+-----------------------------------------------------
 It's time for really big numbers! Calculate the integer value of
 2 ** 179 and print what you got.
 
 print(2 ** 179)
 
---------------------------------------------
+-----------------------------------------------------
 
 Write a program that takes a single integer number n and then
 performs the following operations in the following order:
@@ -138,7 +138,7 @@ if (a + b + c) == 180:
 else:
     print("The triangle is not valid!")
 
-----------------------------------------------------
+-----------------------------------------------------
 
 Whoa! This problem requires knowledge of list collection type. If you're feeling up to the challenge, brace yourself,
 and good luck! Otherwise, you can skip it for now and return any time later.
@@ -188,7 +188,41 @@ while amount < target:
 
 print(years)
 
------------------------------------------------------------------------
+------------------------------------------------------
+
+Kitty wants to visit a cat café! Help her find the one with
+the largest number of cats.
+It is guaranteed that all cafés have a different number of cats.
+
+Input format
+
+Each string contains a café's name followed by a space and the number of cats in it,
+e.g. Paws 11, Kittens 9.
+
+The names would be one-word only. Read input lines until you get
+a string MEOW (without any number).
+
+Output format
+
+The café with the maximum number of cats.
+
+name = ""
+max_count = 0
+while True:
+    command = input()
+    if command == "MEOW":
+        break
+    info = command.split()
+    cafe_name = info[0]
+    cat_count = int(info[1])
+    if cat_count > max_count:
+        max_count = cat_count
+        name = cafe_name
+
+print(name)
+
+-----------------------------------------------------
+
 
 """
 
