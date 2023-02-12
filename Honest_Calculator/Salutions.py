@@ -233,7 +233,7 @@ print("""
 ' '' '''
 ' '' '''
 """)
--------------------------------------------
+-----------------------------------------------------
 Suppose you want to carry a box with dimensions A × B × C (length × width × height) through the doorway with dimensions X × Y (width × height). 
 Write a program to check whether it is possible.
 
@@ -259,6 +259,11 @@ if (b + c) < (x + y):
     print("The box can be carried")
 else:
     print("The box cannot be carried")
-    
------------------------------------------------------------------------    
+-----------------------------------------------------    
+Imagine that you design film posters for a living. Write a program that prints each film title in all caps.
+
+name = input()
+print(name.upper())
+
+-----------------------------------------------------
 """
