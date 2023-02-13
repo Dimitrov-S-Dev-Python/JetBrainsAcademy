@@ -278,6 +278,21 @@ print(date)
 
 -----------------------------------------------------
 
+Write a program that reads a sequence of numbers from the first line and the number x from the second line.
+Then it should output all positions of x in the numerical sequence.
+The position count starts from 0. In case x is not in the sequence, 
+print the line "not found" (quotes omitted, lowercase).
+Positions should be displayed in one line, 
+in ascending order of the value.
+
+numbers = list(map(int, input().split()))
+number = int(input())
+result = [index for index in range(len(numbers)) if numbers[index] == number]
+
+if len(result) > 0:
+    print(*result, sep=" ")
+else:
+    print("not found")
 """
 
 
