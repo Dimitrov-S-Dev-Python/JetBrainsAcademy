@@ -233,7 +233,9 @@ print("""
 ' '' '''
 ' '' '''
 """)
+
 -----------------------------------------------------
+
 Suppose you want to carry a box with dimensions A × B × C (length × width × height) through the doorway with dimensions X × Y (width × height). 
 Write a program to check whether it is possible.
 
