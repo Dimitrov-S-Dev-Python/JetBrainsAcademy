@@ -259,6 +259,7 @@ if (b + c) < (x + y):
     print("The box can be carried")
 else:
     print("The box cannot be carried")
+    
 -----------------------------------------------------    
 Imagine that you design film posters for a living. Write a program that prints each film title in all caps.
 
