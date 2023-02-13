@@ -266,4 +266,18 @@ name = input()
 print(name.upper())
 
 -----------------------------------------------------
+
+Read a date from the input given in one of the following formats: 
+YYYY-MM-DD or YYY-MM-DD. 
+Print the year, month and day on separate lines.
+
+year, month, date = input().split('-')
+print(year)
+print(month)
+print(date)
+
+-----------------------------------------------------
+
 """
+
+
